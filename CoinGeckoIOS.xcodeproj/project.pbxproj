@@ -23,6 +23,7 @@
 		848F4B042B69D0620034CFB6 /* CryptocurrencyDomainMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B032B69D0620034CFB6 /* CryptocurrencyDomainMapper.swift */; };
 		848F4B062B69D0B40034CFB6 /* CryptocurrencyEntityBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B052B69D0B40034CFB6 /* CryptocurrencyEntityBuilder.swift */; };
 		848F4B082B6AD7840034CFB6 /* CryptocurrencyDomainErrorMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B072B6AD7840034CFB6 /* CryptocurrencyDomainErrorMapper.swift */; };
+		848F4B0B2B6AD8680034CFB6 /* Foundation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B0A2B6AD8680034CFB6 /* Foundation+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		848F4B032B69D0620034CFB6 /* CryptocurrencyDomainMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptocurrencyDomainMapper.swift; sourceTree = "<group>"; };
 		848F4B052B69D0B40034CFB6 /* CryptocurrencyEntityBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptocurrencyEntityBuilder.swift; sourceTree = "<group>"; };
 		848F4B072B6AD7840034CFB6 /* CryptocurrencyDomainErrorMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptocurrencyDomainErrorMapper.swift; sourceTree = "<group>"; };
+		848F4B0A2B6AD8680034CFB6 /* Foundation+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 		8439DD0D2B65D895002D931C /* CoinGeckoIOS */ = {
 			isa = PBXGroup;
 			children = (
+				848F4B092B6AD83D0034CFB6 /* Utils */,
 				8433892C2B675D17009118FA /* Data */,
 				843901592B65DF6E00FC762A /* Domain */,
 				8439DD0E2B65D895002D931C /* CoinGeckoIOSApp.swift */,
@@ -181,6 +184,14 @@
 				8439DD152B65D897002D931C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		848F4B092B6AD83D0034CFB6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				848F4B0A2B6AD8680034CFB6 /* Foundation+Extensions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 				8433893A2B676D4C009118FA /* CryptocurrencyPriceInfoDTO.swift in Sources */,
 				8439DD112B65D895002D931C /* ContentView.swift in Sources */,
 				843901682B65EA7600FC762A /* GlobalCryptoListRepository.swift in Sources */,
+				848F4B0B2B6AD8680034CFB6 /* Foundation+Extensions.swift in Sources */,
 				843389382B676A3A009118FA /* CryptocurrencyBasicDTO.swift in Sources */,
 				848F4B042B69D0620034CFB6 /* CryptocurrencyDomainMapper.swift in Sources */,
 				843389352B676729009118FA /* ErrorRequest.swift in Sources */,

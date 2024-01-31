@@ -56,14 +56,3 @@ class GlobalCryptoListRepositoryImpl : GlobalCryptoListRepository {
     }
     
 }
-
-extension Result {
-    var failureValue: Error? {
-        switch self {
-        case .success:
-            return nil
-        case .failure(let error):
-            return error
-        }
-    }
-}
