@@ -7,20 +7,16 @@
 
 import Foundation
 
-class CryptocurrencyDomainErrorMapper {
-    func map(error: HTTPClientError) -> CryptocurrencyDomainError {
-        .generic
-    }
-}
-
 class GlobalCryptoListRepositoryImpl : GlobalCryptoListRepository {
     
     private let apiDataSource: ApiDataSource
     private let errorMapper: CryptocurrencyDomainErrorMapper
+    private let domainMapper: CryptocurrencyDomainMapper
     
-    init(apiDataSource: ApiDataSource, errorMapper: CryptocurrencyDomainErrorMapper) {
+    init(apiDataSource: ApiDataSource, errorMapper: CryptocurrencyDomainErrorMapper, domainMapper: CryptocurrencyDomainMapper) {
         self.apiDataSource = apiDataSource
         self.errorMapper = errorMapper
+        self.domainMapper = domainMapper
     }
     
     func getGlobalCryptoList() async -> Result<[CryptocurrencyEntity], CryptocurrencyDomainError> {
@@ -41,13 +37,9 @@ class GlobalCryptoListRepositoryImpl : GlobalCryptoListRepository {
         //cryptoList
         //globalCryptoSymbolList
         
-        let globalCryptos = cryptoList.filter { crypto in
-            return globalCryptoSymbolList.contains(crypto.symbol)
-        }
+        let globalCryptos = domainMapper.getGlobalCryptos(cryptoList: cryptoList, globalCryptoSymbolList: globalCryptoSymbolList)
         
-        let globalCryptosId = globalCryptos.map { globalCrypto in
-            return globalCrypto.id
-        }
+        let globalCryptosId = domainMapper.getGlobalCryptocurrencyIds(cryptoList: cryptoList, globalCryptoSymbolList: globalCryptoSymbolList)
         
         // Aquí se optiene un diccio de [string: CryptocurrencyPriceInfoDTO]
         let priceInfoResult = await apiDataSource.getPriceInfoForCryptos(id: globalCryptosId)
@@ -56,8 +48,11 @@ class GlobalCryptoListRepositoryImpl : GlobalCryptoListRepository {
             return .failure(errorMapper.map(error: priceInfoResult.failureValue as! HTTPClientError))
         }
 
+        let cryptocurrencyEntityBuilderList = domainMapper.getCryptocurrencyEntityBuilderList(globalCryptos: globalCryptos, priceInfo: priceInfo)
         
-        <#code#>
+        let cryptocurrencyEntityList = domainMapper.map(cryptocurrencyEntityBuilderList: cryptocurrencyEntityBuilderList)
+        
+        return .success(cryptocurrencyEntityList)
     }
     
 }
