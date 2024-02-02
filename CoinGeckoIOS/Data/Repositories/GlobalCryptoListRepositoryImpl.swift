@@ -9,11 +9,11 @@ import Foundation
 
 class GlobalCryptoListRepositoryImpl : GlobalCryptoListRepository {
     
-    private let apiDataSource: ApiDataSource
+    private let apiDataSource: ApiDataSourceProtocol
     private let errorMapper: CryptocurrencyDomainErrorMapper
     private let domainMapper: CryptocurrencyDomainMapper
     
-    init(apiDataSource: ApiDataSource, errorMapper: CryptocurrencyDomainErrorMapper, domainMapper: CryptocurrencyDomainMapper) {
+    init(apiDataSource: ApiDataSourceProtocol, errorMapper: CryptocurrencyDomainErrorMapper, domainMapper: CryptocurrencyDomainMapper) {
         self.apiDataSource = apiDataSource
         self.errorMapper = errorMapper
         self.domainMapper = domainMapper
