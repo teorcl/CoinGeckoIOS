@@ -12,4 +12,7 @@ enum HTTPClientError: Error {
     case serverError
     case generic
     case parsingError
+    case badURL
+    case responseError
+    case tooManyRequests
 }

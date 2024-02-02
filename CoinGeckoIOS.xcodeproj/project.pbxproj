@@ -29,6 +29,9 @@
 		849924782B6C42D10064A2F8 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849924772B6C42D10064A2F8 /* Endpoint.swift */; };
 		8499247A2B6C430C0064A2F8 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849924792B6C430C0064A2F8 /* HTTPMethod.swift */; };
 		8499247C2B6C43AD0064A2F8 /* HTTPClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499247B2B6C43AD0064A2F8 /* HTTPClientProtocol.swift */; };
+		849924802B6D6A490064A2F8 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499247F2B6D6A490064A2F8 /* URLSessionHTTPClient.swift */; };
+		849924822B6D8D620064A2F8 /* URLSessionErrorReslver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849924812B6D8D620064A2F8 /* URLSessionErrorReslver.swift */; };
+		849924842B6D8D850064A2F8 /* URLSessionRequestMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849924832B6D8D850064A2F8 /* URLSessionRequestMaker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +58,9 @@
 		849924772B6C42D10064A2F8 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		849924792B6C430C0064A2F8 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		8499247B2B6C43AD0064A2F8 /* HTTPClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientProtocol.swift; sourceTree = "<group>"; };
+		8499247F2B6D6A490064A2F8 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
+		849924812B6D8D620064A2F8 /* URLSessionErrorReslver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionErrorReslver.swift; sourceTree = "<group>"; };
+		849924832B6D8D850064A2F8 /* URLSessionRequestMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionRequestMaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +235,9 @@
 		8499247E2B6C44D50064A2F8 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				8499247F2B6D6A490064A2F8 /* URLSessionHTTPClient.swift */,
+				849924812B6D8D620064A2F8 /* URLSessionErrorReslver.swift */,
+				849924832B6D8D850064A2F8 /* URLSessionRequestMaker.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -306,6 +315,7 @@
 				8499247C2B6C43AD0064A2F8 /* HTTPClientProtocol.swift in Sources */,
 				8499247A2B6C430C0064A2F8 /* HTTPMethod.swift in Sources */,
 				848F4B062B69D0B40034CFB6 /* CryptocurrencyEntityBuilder.swift in Sources */,
+				849924822B6D8D620064A2F8 /* URLSessionErrorReslver.swift in Sources */,
 				843901652B65E63100FC762A /* GetGlobalCryptoListUseCase.swift in Sources */,
 				8433892F2B675E87009118FA /* GlobalCryptoListRepositoryImpl.swift in Sources */,
 				843901602B65E29F00FC762A /* CryptocurrencyEntity.swift in Sources */,
@@ -317,6 +327,8 @@
 				843389382B676A3A009118FA /* CryptocurrencyBasicDTO.swift in Sources */,
 				849924782B6C42D10064A2F8 /* Endpoint.swift in Sources */,
 				848F4B0E2B6AEF070034CFB6 /* APICryptoDataSource.swift in Sources */,
+				849924802B6D6A490064A2F8 /* URLSessionHTTPClient.swift in Sources */,
+				849924842B6D8D850064A2F8 /* URLSessionRequestMaker.swift in Sources */,
 				848F4B042B69D0620034CFB6 /* CryptocurrencyDomainMapper.swift in Sources */,
 				848F4B102B6AFA440034CFB6 /* CryptocurrencyGlobalInfoDTO.swift in Sources */,
 				843389352B676729009118FA /* ErrorRequest.swift in Sources */,

@@ -18,7 +18,7 @@ class APICryptoDataSource: ApiDataSourceProtocol {
     
     func getGlobalCryptoSymbolList() async -> Result<[String], HTTPClientError> {
         let endpoint = Endpoint(path: "global", queryParamters: [:], method: .get)
-        let result = httpClient.makeRequest(urlBase: urlbase, endpoint: endpoint)
+        let result = await httpClient.makeRequest(urlBase: urlbase, endpoint: endpoint)
         
         guard case .success(let data) = result else {
             let error = result.failureValue as? HTTPClientError
@@ -43,7 +43,7 @@ class APICryptoDataSource: ApiDataSourceProtocol {
             queryParamters: [:],
             method: .get
         )
-        let result = httpClient.makeRequest(urlBase: urlbase, endpoint: endpoint)
+        let result = await httpClient.makeRequest(urlBase: urlbase, endpoint: endpoint)
         
         guard case .success(let data) = result else {
             let error = result.failureValue as? HTTPClientError
@@ -73,7 +73,7 @@ class APICryptoDataSource: ApiDataSourceProtocol {
             method: .get
         )
         
-        let result = httpClient.makeRequest(urlBase: urlbase, endpoint: endpoint)
+        let result = await httpClient.makeRequest(urlBase: urlbase, endpoint: endpoint)
        
         guard case .success(let data) = result else {
             let error = result.failureValue as? HTTPClientError
