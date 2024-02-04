@@ -7,8 +7,12 @@
 
 import Foundation
 
+protocol GetGlobalCryptoListUseCaseProtocol {
+    func execute() async -> Result<[CryptocurrencyEntity], CryptocurrencyDomainError>
+}
 
-class GetGlobalCryptoListUseCase {
+
+class GetGlobalCryptoListUseCase: GetGlobalCryptoListUseCaseProtocol {
     
     private let repository: GlobalCryptoListRepository
     

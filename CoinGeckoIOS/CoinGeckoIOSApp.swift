@@ -11,7 +11,7 @@ import SwiftUI
 struct CoinGeckoIOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GlobalCryptoListFactory.createGlobalCryptoListView()
         }
     }
 }

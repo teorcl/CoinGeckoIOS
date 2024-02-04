@@ -3,4 +3,1053 @@
    uuid = "94063F83-CA3A-49DD-99A7-867C28CA64DB"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2863789D-337B-469B-B86A-3D9D19C60BF0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Presentation/GlobalCryptoListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "onAppear()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2863789D-337B-469B-B86A-3D9D19C60BF0 - 474e58242ccf8eee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Swift.MainActor @Sendable () async -&gt; () in closure #1 @Sendable () async -&gt; () in CoinGeckoIOS.GlobalCryptoListViewModel.onAppear() -&gt; ()"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Presentation/GlobalCryptoListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "95">
+               </Location>
+               <Location
+                  uuid = "2863789D-337B-469B-B86A-3D9D19C60BF0 - 663418a1ff88744"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (CoinGeckoIOS.CryptocurrencyEntity) -&gt; CoinGeckoIOS.CryptoListPresentableItem in closure #1 @Swift.MainActor @Sendable () async -&gt; () in closure #1 @Sendable () async -&gt; () in CoinGeckoIOS.GlobalCryptoListViewModel.onAppear() -&gt; ()"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Presentation/GlobalCryptoListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "83">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4DE66760-3DB4-4CE4-8D02-A5A80FB672F0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Presentation/GlobalCryptoListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "onAppear()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4DE66760-3DB4-4CE4-8D02-A5A80FB672F0 - 2ca56c74272defe0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in CoinGeckoIOS.GlobalCryptoListViewModel.onAppear() -&gt; ()"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Presentation/GlobalCryptoListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "4DE66760-3DB4-4CE4-8D02-A5A80FB672F0 - 26d5739120c19542"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in CoinGeckoIOS.GlobalCryptoListViewModel.onAppear() -&gt; ()"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Presentation/GlobalCryptoListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "4DE66760-3DB4-4CE4-8D02-A5A80FB672F0 - 663d697e0b07a262"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in CoinGeckoIOS.GlobalCryptoListViewModel.onAppear() -&gt; ()"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Presentation/GlobalCryptoListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "102">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F5E59AD-E6C4-4F75-952C-D4516AFA470A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Presentation/GlobalCryptoListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "onAppear()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "020C73D1-2B02-43BF-8E22-08A6A25EDD86"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Repositories/GlobalCryptoListRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "getGlobalCryptoList()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "020C73D1-2B02-43BF-8E22-08A6A25EDD86 - 6c7c7d0911d607ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for CoinGeckoIOS.GlobalCryptoListRepositoryImpl.getGlobalCryptoList() async -&gt; Swift.Result&lt;Swift.Array&lt;CoinGeckoIOS.CryptocurrencyEntity&gt;, CoinGeckoIOS.CryptocurrencyDomainError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Repositories/GlobalCryptoListRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "66">
+               </Location>
+               <Location
+                  uuid = "020C73D1-2B02-43BF-8E22-08A6A25EDD86 - 22f757e04d2575a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for CoinGeckoIOS.GlobalCryptoListRepositoryImpl.getGlobalCryptoList() async -&gt; Swift.Result&lt;Swift.Array&lt;CoinGeckoIOS.CryptocurrencyEntity&gt;, CoinGeckoIOS.CryptocurrencyDomainError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Repositories/GlobalCryptoListRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "020C73D1-2B02-43BF-8E22-08A6A25EDD86 - 56064d884c3f43b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CoinGeckoIOS.GlobalCryptoListRepositoryImpl.getGlobalCryptoList() async -&gt; Swift.Result&lt;Swift.Array&lt;CoinGeckoIOS.CryptocurrencyEntity&gt;, CoinGeckoIOS.CryptocurrencyDomainError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Repositories/GlobalCryptoListRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  uuid = "020C73D1-2B02-43BF-8E22-08A6A25EDD86 - 98085c0bab049fb1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for CoinGeckoIOS.GlobalCryptoListRepositoryImpl.getGlobalCryptoList() async -&gt; Swift.Result&lt;Swift.Array&lt;CoinGeckoIOS.CryptocurrencyEntity&gt;, CoinGeckoIOS.CryptocurrencyDomainError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Repositories/GlobalCryptoListRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "411">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F95552DE-6285-4C5D-8678-219A7C82FD39"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Repositories/GlobalCryptoListRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "getGlobalCryptoList()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F95552DE-6285-4C5D-8678-219A7C82FD39 - 56064d884c3f4392"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CoinGeckoIOS.GlobalCryptoListRepositoryImpl.getGlobalCryptoList() async -&gt; Swift.Result&lt;Swift.Array&lt;CoinGeckoIOS.CryptocurrencyEntity&gt;, CoinGeckoIOS.CryptocurrencyDomainError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Repositories/GlobalCryptoListRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "F95552DE-6285-4C5D-8678-219A7C82FD39 - 91bb171d2b4ab18f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) await resume partial function for CoinGeckoIOS.GlobalCryptoListRepositoryImpl.getGlobalCryptoList() async -&gt; Swift.Result&lt;Swift.Array&lt;CoinGeckoIOS.CryptocurrencyEntity&gt;, CoinGeckoIOS.CryptocurrencyDomainError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Repositories/GlobalCryptoListRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "F95552DE-6285-4C5D-8678-219A7C82FD39 - 98085c0bab049f90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for CoinGeckoIOS.GlobalCryptoListRepositoryImpl.getGlobalCryptoList() async -&gt; Swift.Result&lt;Swift.Array&lt;CoinGeckoIOS.CryptocurrencyEntity&gt;, CoinGeckoIOS.CryptocurrencyDomainError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Repositories/GlobalCryptoListRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "273">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F67CC66-1329-4020-A0C4-DFB2C9B01526"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Repositories/GlobalCryptoListRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "getGlobalCryptoList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B883315B-1F32-4B99-99BF-0A59374DA763"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "getCryptoList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FDA5F692-77C6-4042-8B16-7426485B6569"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "getCryptoList()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FDA5F692-77C6-4042-8B16-7426485B6569 - de501658312c2653"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for CoinGeckoIOS.APICryptoDataSource.getCryptoList() async -&gt; Swift.Result&lt;Swift.Array&lt;CoinGeckoIOS.CryptocurrencyBasicDTO&gt;, CoinGeckoIOS.HTTPClientError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "294">
+               </Location>
+               <Location
+                  uuid = "FDA5F692-77C6-4042-8B16-7426485B6569 - a865ed87e7b7d161"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for CoinGeckoIOS.APICryptoDataSource.getCryptoList() async -&gt; Swift.Result&lt;Swift.Array&lt;CoinGeckoIOS.CryptocurrencyBasicDTO&gt;, CoinGeckoIOS.HTTPClientError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  uuid = "FDA5F692-77C6-4042-8B16-7426485B6569 - df2dc135d7137a55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CoinGeckoIOS.APICryptoDataSource.getCryptoList() async -&gt; Swift.Result&lt;Swift.Array&lt;CoinGeckoIOS.CryptocurrencyBasicDTO&gt;, CoinGeckoIOS.HTTPClientError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "186">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "339134EE-B1E0-4401-8955-50F01ABD6FB4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Infrastructure/Networking/URLSessionRequestMaker.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "getUrl(urlBase:endpoint:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4DE485A5-4F68-46D2-81FE-405DD72CA100"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Infrastructure/Networking/URLSessionRequestMaker.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "getUrl(urlBase:endpoint:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A768212-DA89-4A42-A67B-A01C9FBB5F45"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Infrastructure/Networking/URLSessionHTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "makeRequest(urlBase:endpoint:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0952C3F-10DA-4398-B768-7445410D6C6D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Infrastructure/Networking/URLSessionHTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "makeRequest(urlBase:endpoint:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "520D7AA5-20A7-40FD-87ED-650DC50AA067"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "getCryptoList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "02C2EA55-1D12-4AD8-B683-340AFE1B8D2F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "getCryptoList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F129E0BE-5603-47F2-BCD4-9C6EF80F52F3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "getCryptoList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D05B7C5D-4A52-44C7-BE66-F4D78498B2FA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "getCryptoList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8460321-21B3-4AA8-9E40-ADBD00F897F5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "getCryptoList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D93D006-916D-4EDF-8BD0-196D32C42530"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Repositories/GlobalCryptoListRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "getGlobalCryptoList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3EBF92C-6D58-4796-8FDF-F4CF46255D27"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Repositories/GlobalCryptoListRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "getGlobalCryptoList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACABEA6F-B2CF-4873-8672-71D6BB41DEA9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Repositories/GlobalCryptoListRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "getGlobalCryptoList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5BA35F0B-A4C6-4864-9DDA-45A507E9BC4E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Repositories/GlobalCryptoListRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "getGlobalCryptoList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B55CE0C5-A410-49FF-8E17-CAEE40A5E824"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Repositories/GlobalCryptoListRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "getGlobalCryptoList()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B55CE0C5-A410-49FF-8E17-CAEE40A5E824 - 98085c0bab049204"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for CoinGeckoIOS.GlobalCryptoListRepositoryImpl.getGlobalCryptoList() async -&gt; Swift.Result&lt;Swift.Array&lt;CoinGeckoIOS.CryptocurrencyEntity&gt;, CoinGeckoIOS.CryptocurrencyDomainError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Repositories/GlobalCryptoListRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "937">
+               </Location>
+               <Location
+                  uuid = "B55CE0C5-A410-49FF-8E17-CAEE40A5E824 - 450fd41606d3c019"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) await resume partial function for CoinGeckoIOS.GlobalCryptoListRepositoryImpl.getGlobalCryptoList() async -&gt; Swift.Result&lt;Swift.Array&lt;CoinGeckoIOS.CryptocurrencyEntity&gt;, CoinGeckoIOS.CryptocurrencyDomainError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Repositories/GlobalCryptoListRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "B55CE0C5-A410-49FF-8E17-CAEE40A5E824 - c2122c8d066dd602"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for CoinGeckoIOS.GlobalCryptoListRepositoryImpl.getGlobalCryptoList() async -&gt; Swift.Result&lt;Swift.Array&lt;CoinGeckoIOS.CryptocurrencyEntity&gt;, CoinGeckoIOS.CryptocurrencyDomainError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Repositories/GlobalCryptoListRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "283">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A9BA73A-DEEC-482E-910F-F56C4487B6DA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Repositories/GlobalCryptoListRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "getGlobalCryptoList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D601779E-837E-434F-A4C1-DE1500AEC407"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Repositories/GlobalCryptoListRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "getGlobalCryptoList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0FD84FD9-034C-4241-9397-F114A80A2F9F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Repositories/GlobalCryptoListRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "getGlobalCryptoList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F99DD8A6-1D50-400F-88C2-B3EF2B3443E8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "getPriceInfoForCryptos(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC4FD8C3-B839-4F70-8EDE-CFEE39A1B109"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "getPriceInfoForCryptos(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D666E6D-6988-4D53-9BBE-92B79395F0FE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "getPriceInfoForCryptos(id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5D666E6D-6988-4D53-9BBE-92B79395F0FE - 666dd294d7c630c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for CoinGeckoIOS.APICryptoDataSource.getPriceInfoForCryptos(id: Swift.Array&lt;Swift.String&gt;) async -&gt; Swift.Result&lt;Swift.Dictionary&lt;Swift.String, CoinGeckoIOS.CryptocurrencyPriceInfoDTO&gt;, CoinGeckoIOS.HTTPClientError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "948">
+               </Location>
+               <Location
+                  uuid = "5D666E6D-6988-4D53-9BBE-92B79395F0FE - 94dfa691fd2cd00"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for CoinGeckoIOS.APICryptoDataSource.getPriceInfoForCryptos(id: Swift.Array&lt;Swift.String&gt;) async -&gt; Swift.Result&lt;Swift.Dictionary&lt;Swift.String, CoinGeckoIOS.CryptocurrencyPriceInfoDTO&gt;, CoinGeckoIOS.HTTPClientError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  uuid = "5D666E6D-6988-4D53-9BBE-92B79395F0FE - da8304906dad4cb6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CoinGeckoIOS.APICryptoDataSource.getPriceInfoForCryptos(id: Swift.Array&lt;Swift.String&gt;) async -&gt; Swift.Result&lt;Swift.Dictionary&lt;Swift.String, CoinGeckoIOS.CryptocurrencyPriceInfoDTO&gt;, CoinGeckoIOS.HTTPClientError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "217">
+               </Location>
+               <Location
+                  uuid = "5D666E6D-6988-4D53-9BBE-92B79395F0FE - 666dd294d7c630c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for CoinGeckoIOS.APICryptoDataSource.getPriceInfoForCryptos(id: Swift.Array&lt;Swift.String&gt;) async -&gt; Swift.Result&lt;Swift.Dictionary&lt;Swift.String, CoinGeckoIOS.CryptocurrencyPriceInfoDTO&gt;, CoinGeckoIOS.HTTPClientError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "951">
+               </Location>
+               <Location
+                  uuid = "5D666E6D-6988-4D53-9BBE-92B79395F0FE - da8304906dad4cb6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CoinGeckoIOS.APICryptoDataSource.getPriceInfoForCryptos(id: Swift.Array&lt;Swift.String&gt;) async -&gt; Swift.Result&lt;Swift.Dictionary&lt;Swift.String, CoinGeckoIOS.CryptocurrencyPriceInfoDTO&gt;, CoinGeckoIOS.HTTPClientError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "271">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E79DC770-80DC-4AF6-A336-BD0313A20E93"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "getPriceInfoForCryptos(id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E79DC770-80DC-4AF6-A336-BD0313A20E93 - da8304906dad4d02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CoinGeckoIOS.APICryptoDataSource.getPriceInfoForCryptos(id: Swift.Array&lt;Swift.String&gt;) async -&gt; Swift.Result&lt;Swift.Dictionary&lt;Swift.String, CoinGeckoIOS.CryptocurrencyPriceInfoDTO&gt;, CoinGeckoIOS.HTTPClientError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "710">
+               </Location>
+               <Location
+                  uuid = "E79DC770-80DC-4AF6-A336-BD0313A20E93 - da8304906dad4d23"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CoinGeckoIOS.APICryptoDataSource.getPriceInfoForCryptos(id: Swift.Array&lt;Swift.String&gt;) async -&gt; Swift.Result&lt;Swift.Dictionary&lt;Swift.String, CoinGeckoIOS.CryptocurrencyPriceInfoDTO&gt;, CoinGeckoIOS.HTTPClientError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "988">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1793D50-CBB6-4B30-96E4-2044E53B9A37"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "handleError(error:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B1793D50-CBB6-4B30-96E4-2044E53B9A37 - da8304906dad42a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CoinGeckoIOS.APICryptoDataSource.getPriceInfoForCryptos(id: Swift.Array&lt;Swift.String&gt;) async -&gt; Swift.Result&lt;Swift.Dictionary&lt;Swift.String, CoinGeckoIOS.CryptocurrencyPriceInfoDTO&gt;, CoinGeckoIOS.HTTPClientError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "1441">
+               </Location>
+               <Location
+                  uuid = "B1793D50-CBB6-4B30-96E4-2044E53B9A37 - 9909aa8be2aa7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoinGeckoIOS.APICryptoDataSource.handleError(error: Swift.Optional&lt;CoinGeckoIOS.HTTPClientError&gt;) -&gt; CoinGeckoIOS.HTTPClientError"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9ED3B644-FC2C-4B25-8699-89C6C84A5448"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "getPriceInfoForCryptos(id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9ED3B644-FC2C-4B25-8699-89C6C84A5448 - da8304906dad4cc8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CoinGeckoIOS.APICryptoDataSource.getPriceInfoForCryptos(id: Swift.Array&lt;Swift.String&gt;) async -&gt; Swift.Result&lt;Swift.Dictionary&lt;Swift.String, CoinGeckoIOS.CryptocurrencyPriceInfoDTO&gt;, CoinGeckoIOS.HTTPClientError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "412">
+               </Location>
+               <Location
+                  uuid = "9ED3B644-FC2C-4B25-8699-89C6C84A5448 - da8304906dad4cc8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CoinGeckoIOS.APICryptoDataSource.getPriceInfoForCryptos(id: Swift.Array&lt;Swift.String&gt;) async -&gt; Swift.Result&lt;Swift.Dictionary&lt;Swift.String, CoinGeckoIOS.CryptocurrencyPriceInfoDTO&gt;, CoinGeckoIOS.HTTPClientError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "349">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A1DFDA9-2356-4280-BD50-BE6462B696F7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "getPriceInfoForCryptos(id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0A1DFDA9-2356-4280-BD50-BE6462B696F7 - da8304906dad4c2b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CoinGeckoIOS.APICryptoDataSource.getPriceInfoForCryptos(id: Swift.Array&lt;Swift.String&gt;) async -&gt; Swift.Result&lt;Swift.Dictionary&lt;Swift.String, CoinGeckoIOS.CryptocurrencyPriceInfoDTO&gt;, CoinGeckoIOS.HTTPClientError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "486">
+               </Location>
+               <Location
+                  uuid = "0A1DFDA9-2356-4280-BD50-BE6462B696F7 - da8304906dad4c2b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CoinGeckoIOS.APICryptoDataSource.getPriceInfoForCryptos(id: Swift.Array&lt;Swift.String&gt;) async -&gt; Swift.Result&lt;Swift.Dictionary&lt;Swift.String, CoinGeckoIOS.CryptocurrencyPriceInfoDTO&gt;, CoinGeckoIOS.HTTPClientError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "420">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CAD6C17-3DF9-4FB4-BFCB-FE82F6323242"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "getPriceInfoForCryptos(id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3CAD6C17-3DF9-4FB4-BFCB-FE82F6323242 - da8304906dad4d02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CoinGeckoIOS.APICryptoDataSource.getPriceInfoForCryptos(id: Swift.Array&lt;Swift.String&gt;) async -&gt; Swift.Result&lt;Swift.Dictionary&lt;Swift.String, CoinGeckoIOS.CryptocurrencyPriceInfoDTO&gt;, CoinGeckoIOS.HTTPClientError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "710">
+               </Location>
+               <Location
+                  uuid = "3CAD6C17-3DF9-4FB4-BFCB-FE82F6323242 - da8304906dad4d02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CoinGeckoIOS.APICryptoDataSource.getPriceInfoForCryptos(id: Swift.Array&lt;Swift.String&gt;) async -&gt; Swift.Result&lt;Swift.Dictionary&lt;Swift.String, CoinGeckoIOS.CryptocurrencyPriceInfoDTO&gt;, CoinGeckoIOS.HTTPClientError&gt;"
+                  moduleName = "CoinGeckoIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Ejercicios_CursoIOS/CoinGeckoIOS/CoinGeckoIOS/Data/Networking/APICryptoDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "1916">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
