@@ -23,8 +23,8 @@ class CryptocurrencyEntityBuilder {
     }
     
     func build() -> CryptocurrencyEntity? {
-        guard let price = price,
-              let marketCap = marketCap else {
+        guard let price = price?.truncate(toDecimalPlaces: 2),
+              let marketCap = marketCap?.truncate(toDecimalPlaces: 2) else {
             return nil
         }
          return CryptocurrencyEntity(
@@ -32,8 +32,8 @@ class CryptocurrencyEntityBuilder {
             name: name,
             symbol: symbol,
             price: price,
-            price24h: price24h,
-            volume24h: volume24h,
+            price24h: price24h?.truncate(toDecimalPlaces: 2),
+            volume24h: volume24h?.truncate(toDecimalPlaces: 2),
             marketCap: marketCap
         )
         

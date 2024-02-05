@@ -16,12 +16,22 @@ struct GlobalCryptoListView: View {
     }
     var body: some View {
         VStack {
-            List (viewModel.cryptos, id: \.id){ crypto in
-                Text(crypto.name)
+            if viewModel.isLoading {
+                ProgressView().progressViewStyle(.circular)
+            } else {
+                List (viewModel.cryptos, id: \.id){ crypto in
+                    CryptoListItemView(cryptoItem: crypto)
+                }
             }
-        }.onAppear {
+        }
+        .ignoresSafeArea(.all)
+        .padding()
+        .onAppear {
             viewModel.onAppear()
         }
     }
 }
 
+#Preview {
+    GlobalCryptoListFactory.createGlobalCryptoListView()
+}

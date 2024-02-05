@@ -17,3 +17,10 @@ extension Result {
         }
     }
 }
+
+extension Double {
+    func truncate(toDecimalPlaces decimalPlaces: Int) -> Double {
+        let multiplier = pow(10.0, Double(decimalPlaces))
+        return (self * multiplier).rounded(.towardZero) / multiplier
+    }
+}
