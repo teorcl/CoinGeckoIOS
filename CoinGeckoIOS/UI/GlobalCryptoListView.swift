@@ -19,14 +19,20 @@ struct GlobalCryptoListView: View {
             if viewModel.isLoading {
                 ProgressView().progressViewStyle(.circular)
             } else {
-                List (viewModel.cryptos, id: \.id){ crypto in
-                    CryptoListItemView(cryptoItem: crypto)
+                if viewModel.errorMessage == nil {
+                    List (viewModel.cryptos, id: \.id){ crypto in
+                        CryptoListItemView(cryptoItem: crypto)
+                    }
+                } else{
+                    Text(viewModel.errorMessage!)
                 }
             }
         }
         .ignoresSafeArea(.all)
         .padding()
         .onAppear {
+            viewModel.onAppear()
+        }.refreshable {
             viewModel.onAppear()
         }
     }

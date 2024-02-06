@@ -16,7 +16,8 @@ class GlobalCryptoListFactory {
     
     private static func createViewModel() -> GlobalCryptoListViewModel {
         return GlobalCryptoListViewModel(
-            getGlobalCryptoList: createUseCase()
+            getGlobalCryptoList: createUseCase(),
+            errorMapper: CryptocurrencyPresentableErrorMapper()
         )
     }
     

@@ -7,53 +7,49 @@
 
 import Foundation
 
-// MARK: - Formateo de los datos para que sean presentables en la vista
-struct CryptoListPresentableItem {
-    let id: String
-    let name: String
-    let symbol: String
-    let price: String
-    let price24h: String
-    let volume24h: String
-    let marketCap: String
-    let isPriceChangePostive: Bool
-    
-    init(domainModel: CryptocurrencyEntity){
-        self.id = domainModel.id
-        self.name = domainModel.name
-        self.symbol = domainModel.symbol
-        self.price = "\(domainModel.price) $"
-        self.price24h = domainModel.price24h != nil ? "\(domainModel.price24h!) %" : "-"
-        self.volume24h = domainModel.volume24h != nil ? "\(domainModel.volume24h!) $" : "-"
-        self.marketCap = "\(domainModel.marketCap) $"
-        self.isPriceChangePostive = (domainModel.price24h ?? 0) >= 0
-    }
-}
 
 class GlobalCryptoListViewModel: ObservableObject {
     
     private let getGlobalCryptoList: GetGlobalCryptoListUseCaseProtocol
+    private let errorMapper: CryptocurrencyPresentableErrorMapper
     @Published var cryptos: [CryptoListPresentableItem] = []
     @Published var isLoading: Bool = false
+    @Published var errorMessage: String?
     
-    init(getGlobalCryptoList: GetGlobalCryptoListUseCaseProtocol) {
+    init(getGlobalCryptoList: GetGlobalCryptoListUseCaseProtocol, errorMapper: CryptocurrencyPresentableErrorMapper) {
         self.getGlobalCryptoList = getGlobalCryptoList
+        self.errorMapper = errorMapper
     }
     
     func onAppear() {
         isLoading = true
         Task {
             let result = await getGlobalCryptoList.execute()
-            let cryptocurrencies = try? result.get()
+            
+            
+            guard case .success(let cryptosObtained) = result else {
+                handleError(error: result.failureValue as? CryptocurrencyDomainError)
+                return
+            }
+
            
-            guard let cryptocurrenciesOk = cryptocurrencies else { return }
+            let cryptocurrenciesPresentable = cryptosObtained.map { cryptocurrency in
+                return CryptoListPresentableItem(domainModel: cryptocurrency)
+            }
             
             Task { @MainActor in
                 isLoading = false
-                cryptos = cryptocurrenciesOk.map { cryptocurrency in
-                    return CryptoListPresentableItem(domainModel: cryptocurrency)
-                }
+                self.cryptos = cryptocurrenciesPresentable
             }
         }
+    }
+    
+    private func handleError(error: CryptocurrencyDomainError?) {
+        let errorMessage = errorMapper.map(error: error)
+        Task { @MainActor in
+            isLoading = false
+            self.errorMessage = errorMessage
+        }
+        
     }
 }

@@ -25,11 +25,11 @@ class GlobalCryptoListRepositoryImpl : GlobalCryptoListRepository {
         let cryptoListResult = await apiDataSource.getCryptoList()
         
         guard case .success(let cryptoList) = cryptoListResult else {
-            return .failure(errorMapper.map(error: cryptoListResult.failureValue as! HTTPClientError))
+            return .failure(errorMapper.map(error: cryptoListResult.failureValue as? HTTPClientError))
         }
         
         guard case .success(let globalCryptoSymbolList) = globalCryptoSymbolListResult else {
-            return .failure(errorMapper.map(error: globalCryptoSymbolListResult.failureValue as! HTTPClientError))
+            return .failure(errorMapper.map(error: globalCryptoSymbolListResult.failureValue as? HTTPClientError))
         }
 
         // En este punto ya tenemos la lista de todas las cryptos y la lista de
@@ -45,7 +45,7 @@ class GlobalCryptoListRepositoryImpl : GlobalCryptoListRepository {
         let priceInfoResult = await apiDataSource.getPriceInfoForCryptos(id: globalCryptosId)
         
         guard case .success(let priceInfo) = priceInfoResult else {
-            return .failure(errorMapper.map(error: priceInfoResult.failureValue as! HTTPClientError))
+            return .failure(errorMapper.map(error: priceInfoResult.failureValue as? HTTPClientError))
         }
 
         let cryptocurrencyEntityBuilderList = domainMapper.getCryptocurrencyEntityBuilderList(globalCryptos: globalCryptos, priceInfo: priceInfo)
